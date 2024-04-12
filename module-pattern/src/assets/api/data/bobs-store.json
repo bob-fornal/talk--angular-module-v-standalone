@@ -1,3 +1,10 @@
 {
-  "title": "Bob's Store"
+  "title": "Bob's Store",
+  "blocks": [
+    {
+      "type": "text-only",
+      "title": "Coming Soon",
+      "text": "This is my store. There's not a lot here yet. More coming very soon."
+    }
+  ]
 }
