@@ -1,6 +1,6 @@
-<div class="wrapper">
+<div class="wrapper" [ngClass]="mediaType()">
   @switch (block.mediaType) {
-    @case ('image') {
+    @case ('banner') {
       <img class="media" [src]="block.media" />
     }
   }

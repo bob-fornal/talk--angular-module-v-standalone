@@ -16,7 +16,7 @@
       "type": "media-only",
       "title": "Media Only",
       "media": "/assets/images/dummy-rope.jpeg",
-      "mediaType": "image"
+      "mediaType": "banner"
     }, {
       "type": "text-media",
       "title": "Text Media",

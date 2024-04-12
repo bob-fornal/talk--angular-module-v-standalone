@@ -8,4 +8,8 @@ import { Block } from '../../_core/interfaces/block';
 })
 export class MediaOnlyComponent {
   @Input() block: Block = { type: '', title: '', text: '', media: '', mediaType: '' };
+
+  mediaType = (): string | undefined => {
+    return this.block.mediaType;
+  };
 }
