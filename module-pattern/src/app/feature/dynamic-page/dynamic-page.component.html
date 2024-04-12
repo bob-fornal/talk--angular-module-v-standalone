@@ -1,0 +1,13 @@
+@for (block of blocks; track block;) {
+  @switch (block.type) {
+    @case ('media-only') {
+      <media-only [block]="block"></media-only>
+    }
+    @case ('text-only') {
+      <text-only [block]="block"></text-only>
+    }
+    @case ('text-media') {
+      <text-media [block]="block"></text-media>
+    }
+  }
+}

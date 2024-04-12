@@ -1,0 +1,15 @@
+<div class="wrapper-outer">
+  <div class="wrapper-inner">
+    <!-- <h2>{{ block.title }}</h2> -->
+    <div class="block" [class.text-left]="block.textSide === 'left'">
+      <div class="text-block">{{ block.text }}</div>
+      <div class="media-block">
+        @switch (block.mediaType) {
+          @case ('image') {
+            <img class="media" [src]="block.media" />
+          }
+        }
+      </div>
+    </div>
+  </div>
+</div>

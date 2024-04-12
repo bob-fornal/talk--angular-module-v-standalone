@@ -1,0 +1,43 @@
+.wrapper-outer {
+  background-color: tan;
+  padding: 2em;
+
+  .wrapper-inner {
+    width: 800px;
+    margin: 0 auto;
+  }
+}
+
+.block {
+  display: flex;
+  align-items: center;
+
+  &.text-left {
+    flex-direction: row;
+
+    .text-block {
+      padding-right: 1em;
+      text-align: right;
+    }
+  }
+  &:not(.text-left) {
+    flex-direction: row-reverse;
+
+    .text-block {
+      padding-left: 1em;
+    }
+  }
+
+  .text-block {
+    display: inline-block;
+    width: 400px;
+  }
+  .media-block {
+    display: inline-block;
+    width: 400px;
+    
+    .media {
+      width: 100%;
+    }
+  }
+}
