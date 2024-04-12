@@ -10,3 +10,12 @@ h1 {
 h2 {
   margin-block-start: 0;
 }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.title {
+  margin-top: 1em;
+}
+.bold {
+  font-weight: bold;
+}

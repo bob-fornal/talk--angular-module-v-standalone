@@ -1,3 +1,9 @@
+export interface Panel {
+  image: string;
+  text: string;
+  url: string;
+}
+
 export interface Block {
   type: string;
   title: string;
@@ -7,6 +13,8 @@ export interface Block {
 
   media?: string;
   mediaType?: string;
+
+  panels?: Array<Panel>;
 }
 
 export interface Page {
