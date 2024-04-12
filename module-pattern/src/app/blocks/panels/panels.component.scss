@@ -1,13 +1,21 @@
 .wrapper-outer {
-  background-color: antiquewhite;
+  background-color: paleturquoise;
   padding: 2em;
 
   .wrapper-inner {
     width: 800px;
     margin: 0 auto;
 
+    .blocks-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
     .panel {
       cursor: pointer;
+      width: calc(calc(100% / 4) - 1em);
+      margin-right: 1em;
+      margin-bottom: 1em;
 
       .panel-content-wrapper {
         padding-top: 1em;

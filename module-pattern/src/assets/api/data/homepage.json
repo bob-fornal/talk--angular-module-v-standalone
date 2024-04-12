@@ -11,7 +11,23 @@
       "panels": [
         {
           "url": "/home/bobs-store",
-          "image": "/assets/images/header.jpeg",
+          "image": "/assets/images/person001.jpeg",
+          "text": "<span class=bold>Bob's Store</span><br/><br/>This is the content for this text only component."
+        }, {
+          "url": "/home/bobs-store",
+          "image": "/assets/images/person002.jpeg",
+          "text": "<span class=bold>Title</span><br/><br/>This is the content for this text only component."
+        }, {
+          "url": "/home/bobs-store",
+          "image": "/assets/images/person003.jpeg",
+          "text": "<span class=bold>Title</span><br/><br/>This is the content for this text only component."
+        }, {
+          "url": "/home/bobs-store",
+          "image": "/assets/images/person004.jpeg",
+          "text": "<span class=bold>Title</span><br/><br/>This is the content for this text only component."
+        }, {
+          "url": "/home/bobs-store",
+          "image": "/assets/images/person005.jpeg",
           "text": "<span class=bold>Title</span><br/><br/>This is the content for this text only component."
         }
       ]

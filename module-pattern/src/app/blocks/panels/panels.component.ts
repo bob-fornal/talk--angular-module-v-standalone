@@ -1,5 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { Block } from '../../_core/interfaces/block';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'panels',
@@ -9,7 +10,9 @@ import { Block } from '../../_core/interfaces/block';
 export class PanelsComponent {
   @Input() block: Block = { type: '', title: '', panels: [] };
 
+  constructor(private router: Router) {}
+
   select = (url: string): void => {
-    console.log(url);
+    this.router.navigateByUrl(url);
   };
 }

@@ -1,13 +1,15 @@
 <div class="wrapper-outer">
   <div class="wrapper-inner">
     <h2>{{ block.title }}</h2>
-    @for (panel of block.panels; track panel) {
-      <mat-card class="panel" (click)="select(panel.url)">
-        <img mat-card-image [src]="panel.image" />
-        <mat-card-content>
-          <div class="panel-content-wrapper" [innerHTML]="panel.text"></div>
-        </mat-card-content>
-      </mat-card>
-    }
+    <div class="blocks-wrapper">
+      @for (panel of block.panels; track panel) {
+        <mat-card class="panel" (click)="select(panel.url)">
+          <img mat-card-image [src]="panel.image" />
+          <mat-card-content>
+            <div class="panel-content-wrapper" [innerHTML]="panel.text"></div>
+          </mat-card-content>
+        </mat-card>
+      }
+    </div>
   </div>
 </div>
