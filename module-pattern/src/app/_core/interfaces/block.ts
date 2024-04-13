@@ -15,6 +15,8 @@ export interface Block {
   mediaType?: string;
 
   panels?: Array<Panel>;
+
+  href?: string;
 }
 
 export interface Page {

@@ -1,16 +1,19 @@
 @for (block of blocks; track block;) {
   @switch (block.type) {
+    @case ('button') {
+      <block-button [block]="block"></block-button>
+    }
     @case ('media-only') {
-      <media-only [block]="block"></media-only>
+      <block-media-only [block]="block"></block-media-only>
     }
     @case('panels') {
-      <panels [block]="block"></panels>
+      <block-panels [block]="block"></block-panels>
     }
     @case ('text-only') {
-      <text-only [block]="block"></text-only>
+      <block-text-only [block]="block"></block-text-only>
     }
     @case ('text-media') {
-      <text-media [block]="block"></text-media>
+      <block-text-media [block]="block"></block-text-media>
     }
   }
 }

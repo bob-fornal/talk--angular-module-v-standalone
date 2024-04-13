@@ -3,7 +3,7 @@ import { Block } from '../../_core/interfaces/block';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'panels',
+  selector: 'block-panels',
   templateUrl: './panels.component.html',
   styleUrl: './panels.component.scss'
 })

@@ -6,6 +6,10 @@
       "title": "Text Only",
       "text": "This is the content for this text only component. This is the content for this text/media component. This is the content for this text/media component. This is the content for this text/media component. This is the content for this text/media component. This is the content for this text/media component."
     }, {
+      "type": "button",
+      "title": "Bob's Store",
+      "href": "/home/bobs-store"
+    }, {
       "type": "panels",
       "title": "Panels",
       "panels": [

@@ -2,7 +2,7 @@ import { Component, Input } from '@angular/core';
 import { Block } from '../../_core/interfaces/block';
 
 @Component({
-  selector: 'media-only',
+  selector: 'block-media-only',
   templateUrl: './media-only.component.html',
   styleUrl: './media-only.component.scss'
 })
